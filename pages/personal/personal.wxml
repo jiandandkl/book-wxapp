@@ -1,0 +1,27 @@
+<view id="header">
+    <view class="content" style="flex-direction:column">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+        <view class="nickname">欢迎你,{{userInfo.nickName}}</view>
+    </view>
+</view>
+
+<view id="section">
+    <view class="section-flex" style="flex-direction:row;">
+        <view class="section-item {{item.class}}" wx:for="{{personal}}">
+            <view class="section-name" style="flex-direction:column">
+                <image src="{{item.icon}}" class="icon"></image>
+                <text>{{item.name}}</text>
+            </view>
+            <view class="section-name">
+                <!--<text>{{item.name}}</text>-->
+            </view>
+        </view>
+    </view>
+</view>
+
+<view id="footer">
+    <view class="footer-content" wx:for="{{footerdata}}">
+        <view class="footer-left"><text>{{item.text}}</text></view>
+        <view class="arrow-right"><image src="../../images/arrow-right.png"></image></view>
+    </view>
+</view>

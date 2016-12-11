@@ -1,0 +1,65 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+    <swiper-item>
+      <image src="{{img0}}" />
+    </swiper-item>
+    <swiper-item>
+      <image src="{{img1}}" />
+    </swiper-item>
+    <swiper-item>
+      <image src="{{img2}}" />
+    </swiper-item>
+
+    
+
+  </swiper>
+
+  <!--<view>-->
+    <!--<text>{{books.title}}</text>-->
+  <!--</view>-->
+
+  <view class="btn-area">
+  <!--<navigator url="../navigate/navigate?title=navigate" hover-class="navigator-hover">跳转到新页面</navigator>-->
+
+    <navigator url="">
+      <view class="board">
+        <view class="board-info">
+          <text class="board-name">本周推荐</text>
+          <image class="board-img" src="../../images/arrow-right.png" mode="aspectFill"/>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url="">
+      <view class="board">
+        <view class="board-info">
+          <text class="board-name">本周新书</text>
+          <image class="board-img" src="../../images/arrow-right.png" mode="aspectFill"/>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url="">
+      <view class="board">
+        <view class="board-info">
+          <text class="board-name">荧屏大热</text>
+          <image class="board-img" src="/images/arrow-right.png" mode="aspectFill"/>
+        </view>
+      </view>
+    </navigator>
+
+    <navigator url="">
+      <view class="board">
+        <view class="board-info">
+          <text class="board-name">重温经典</text>
+          <image class="board-img" src="/images/arrow-right.png" mode="aspectFill"/>
+        </view>
+      </view>
+    </navigator>
+
+
+
+</view>
+
+</view>

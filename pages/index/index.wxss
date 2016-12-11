@@ -1,0 +1,42 @@
+/**index.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-size: 32rpx;
+}
+
+.swiper {
+  height: 400rpx;
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+
+.board {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  background-color: #FBF9FE;
+  overflow: hidden;
+  border-radius: 4rpx;
+  cursor: pointer;
+  width: 700rpx;
+  height: 140rpx;
+}
+.board-info {
+  display: flex;
+  padding: 40rpx;
+  line-height: 70rpx;
+  align-items: center;
+  flex-direction: row;
+}
+.board-name {
+  flex: 1;
+}
+.board-img {
+  width: 32rpx;
+  height: 32rpx;
+}
