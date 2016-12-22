@@ -1,23 +1,18 @@
 <!--index.wxml-->
 <view class="container">
   <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
-    <swiper-item>
-      <image src="{{img0}}" />
-    </swiper-item>
-    <swiper-item>
-      <image src="{{img1}}" />
-    </swiper-item>
-    <swiper-item>
-      <image src="{{img2}}" />
-    </swiper-item>
 
-    
+    <block wx:for="{{books}}">
+      <swiper-item>
+        <image src="{{item.img}}" class="slide-image" mode="aspectFill"/>
+      </swiper-item>
+    </block>
 
   </swiper>
 
-  <!--<view>-->
-    <!--<text>{{books.title}}</text>-->
-  <!--</view>-->
+  <view>
+    <text>{{title}}</text>
+  </view>
 
   <view class="btn-area">
   <!--<navigator url="../navigate/navigate?title=navigate" hover-class="navigator-hover">跳转到新页面</navigator>-->

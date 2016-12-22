@@ -3,10 +3,7 @@
 var app = getApp()
 Page({
   data: {
-    books:[],
-    img0:"",
-    img1:"",
-    img2:"",
+    books:[]
   },
   onLoad: function () {
     console.log('onLoad')
@@ -21,11 +18,7 @@ Page({
       },
       success: function(res) {
         console.log(res.data)
-
-        that.setData({books:res.data.data.carousels[0]})
-        that.setData({img0:res.data.data.carousels[0].img})
-        that.setData({img1:res.data.data.carousels[1].img})
-        that.setData({img2:res.data.data.carousels[2].img})
+        that.setData({books:res.data.data.carousels})
       }
     })
 
