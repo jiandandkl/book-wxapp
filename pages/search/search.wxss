@@ -1,0 +1,20 @@
+.search_container {
+    background-color: #f4f4f4;
+}
+
+.search_header {
+    display: flex;
+    height: 100rpx;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+.search_input {
+    width: 600rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    padding-left: 20rpx;
+    border-radius: 40rpx;
+    border: 1rpx solid #666;
+}
