@@ -12,7 +12,7 @@
                 <view class="book_tags1">{{item.tags[1]}}</view>
                 <view class="book_tags2">{{item.tags[2]}}</view>
                 </view>
-            <view class="book_desc">摘要：{{item.desc}}。</view>
+            <view class="book_desc">摘要：{{item.desc}}...</view>
         </view>
     </view>
 </navigator>

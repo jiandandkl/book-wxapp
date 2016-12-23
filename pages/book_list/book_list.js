@@ -23,10 +23,15 @@ Page({
       success: function(res) {
         console.log(res.data)
         var data_desc=res.data.data.books;
-        data_desc[0].desc=data_desc[0].desc.split("。")[0];
-        console.log(data_desc[0].desc);
+        for (var i=0,len=data_desc.length;i<len;i++){
+          console.log(data_desc[i].desc)
+          data_desc[i].desc=data_desc[i].desc.slice(0,57);
+          console.log(data_desc[i].desc);
+        }
+
+
         that.setData({book_list:res.data.data.books})
-        //that.setData({desc:res.data.data.books.desc})
+
       }
 
 
