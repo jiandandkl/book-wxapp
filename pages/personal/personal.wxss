@@ -11,8 +11,9 @@ page{
 
 .content {
     display: flex;
-    margin-top: 10rpx;
-    /*flex-direction: column;*/
+    /*margin-top: 10rpx;*/
+    /*flex-direction: co4421417
+    lumn;*/
     align-items: center;
     /*background: #eee*/
 }

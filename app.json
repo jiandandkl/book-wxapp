@@ -1,13 +1,13 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/navigate/navigate",
-    "pages/personal/personal"
+    "pages/book_list/book_list",
+    "pages/personal/personal",
+    "pages/search/search"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "skyblue",
     "navigationBarTitleText": "书香云集",
     "navigationBarTextStyle":"black"
   },

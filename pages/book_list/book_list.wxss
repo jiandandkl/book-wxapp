@@ -1,0 +1,68 @@
+/* pages/navigate/navigate.wxss */
+
+.book_item {
+    /*display: flex;*/
+    border-bottom: 1rpx solid #f3f3f3;
+    padding: 20rpx;
+    /*height: 220rpx;*/
+    position: relative;
+    overflow: hidden;
+}
+
+.book_img {
+    float: left;
+    width: 30%;
+    height: 200rpx;
+    margin-left: -20rpx;
+}
+
+.book_info {
+    margin-left: 20rpx;
+}
+
+.book_title {
+    font-size: 32rpx;
+}
+
+.book_author {
+    font-size: 24rpx;
+    color: #666; 
+    margin: 16rpx;
+}
+
+.book_tags {
+    font-size: 24rpx;
+    margin: 16rpx; 
+    color: #666; 
+}
+
+.book_tags0 {
+    display: inline-block;
+    font-size: 22rpx;
+    border: 1rpx solid skyblue;
+    color: skyblue;
+    padding: 4rpx;
+    margin-right: 10rpx;
+}
+
+.book_tags1 {
+    display: inline-block;
+    font-size: 22rpx;
+    border: 1rpx solid lightpink;
+    color: lightpink;
+    padding: 4rpx;
+    margin-right: 10rpx;
+}
+.book_tags2 {
+    display: inline-block;
+    font-size: 22rpx;
+    padding: 4rpx;
+    border: 1rpx solid lightgreen;
+    color: lightgreen;
+}
+
+
+.book_desc {
+    font-size: 24rpx;
+    color: #666; 
+}

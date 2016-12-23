@@ -1,0 +1,19 @@
+<!--pages/book_list/book_list.wxml-->
+
+<block wx:for="{{book_list}}">
+<navigator hover-class="nav-hover" url="">
+    <view class="book_item">
+        <image mode="aspectFit" class="book_img" src="https://d.ireadercity.com/GoodBooks/{{item.img}}"></image>
+        <view class="book_infos">
+            <view class="book_title">{{item.title}}</view>
+            <view class="book_author">作者：{{item.author}}</view>
+            <view class="book_tags">标签：
+                <view class="book_tags0">{{item.tags[0]}}</view>
+                <view class="book_tags1">{{item.tags[1]}}</view>
+                <view class="book_tags2">{{item.tags[2]}}</view>
+                </view>
+            <view class="book_desc">摘要：{{item.desc}}。</view>
+        </view>
+    </view>
+</navigator>
+</block>

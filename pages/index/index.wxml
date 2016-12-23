@@ -15,9 +15,9 @@
   </view>
 
   <view class="btn-area">
-  <!--<navigator url="../navigate/navigate?title=navigate" hover-class="navigator-hover">跳转到新页面</navigator>-->
+  <!--<navigator url="../book_list/book_list?title=book_list" hover-class="navigator-hover">跳转到新页面</navigator>-->
 
-    <navigator url="">
+    <navigator url="../book_list/book_list?title=本周推荐" hover-class="navigator-hover">
       <view class="board">
         <view class="board-info">
           <text class="board-name">本周推荐</text>
